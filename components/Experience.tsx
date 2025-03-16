@@ -16,14 +16,14 @@ interface Project {
 }
 
 const capstoneFiles: CapstoneFile[] = [
-  { name: "Project Summary", file: "/assets/capstone/project_summary.docx" },
-  { name: "Project Vision", file: "/assets/capstone/project_vision.docx" },
-  { name: "Project/Business Requirement", file: "/assets/capstone/Requirements_Analysis_Design.docx" },
-  { name: "Project Plan", file: "/assets/capstone/Project_Plan.docx" },
-  { name: "Requirement Analysis and Design", file: "/assets/capstone/Requirements_Analysis_Design.docx" },
+  { name: "Project Summary", file: "/project_summary.docx" },
+  { name: "Project Vision", file: "/project_vision.docx" },
+  { name: "Project/Business Requirement", file: "/Requirements_Analysis_Design.docx" },
+  { name: "Project Plan", file: "/Project_Plan.docx" },
+  { name: "Requirement Analysis and Design", file: "/Requirements_Analysis_Design.docx" },
   { name: "Figma Wireframes", file: "https://www.figma.com/design/qNMGxyYU0z3mR1Q3DOXkSC/ShiftSmart?m=auto&t=4jZNkIYSHGtsvKDo-6" },
   { name: "Figma Prototype", file: "https://www.figma.com/proto/qNMGxyYU0z3mR1Q3DOXkSC?node-id=116-13899&t=4jZNkIYSHGtsvKDo-6" },
-  { name: "Status Reports", file: "/assets/capstone/Status_Reports.docx" },
+  { name: "Status Reports", file: "/Status_Reports.docx" },
 ];
 
 const academicProjects: Project[] = [
@@ -69,9 +69,9 @@ const Experience: React.FC = () => {
     <section className="container mx-auto px-6 py-10">
       <div className="max-w-6xl mx-auto">
         {/* Capstone Project */}
-        <div className="bg-white rounded-lg shadow-md p-8 mb-10 transition duration-300 hover:shadow-xl">
-          <h2 className="text-3xl font-bold mb-6 flex items-center text-gray-800">
-            <Code className="mr-2 text-indigo-500" /> Capstone Project
+        <div className="bg-white rounded-xl shadow-lg p-8 mb-10 transition duration-300 hover:shadow-2xl">
+          <h2 className="text-3xl font-bold mb-6 flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-4 py-3 rounded-lg shadow-md">
+            <Code className="mr-2 text-white" /> Capstone Project
           </h2>
           <h3 className="text-2xl font-semibold mb-4 text-gray-700">ShiftSmart - Worker Scheduling System</h3>
           <p className="text-gray-600 mb-4 leading-relaxed">
@@ -107,13 +107,13 @@ const Experience: React.FC = () => {
         </div>
 
         {/* Academic Projects Section */}
-        <div className="bg-white rounded-lg shadow-md p-8 transition duration-300 hover:shadow-xl">
-          <h2 className="text-3xl font-bold mb-6 flex items-center text-gray-800">
-            <BookOpen className="mr-2 text-indigo-500" /> Academic Work Samples
+        <div className="bg-white rounded-xl shadow-lg p-8 transition duration-300 hover:shadow-2xl">
+          <h2 className="text-3xl font-bold mb-6 flex items-center bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-4 py-3 rounded-lg shadow-md">
+            <BookOpen className="mr-2 text-white" /> Academic Work Samples
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {academicProjects.map((project, index) => (
-              <div key={index} className="border border-gray-200 rounded-lg p-5 bg-gray-50 hover:bg-gray-100 transition duration-300">
+              <div key={index} className="border border-gray-200 rounded-xl p-5 bg-gray-50 hover:bg-white hover:shadow-lg transition duration-300 transform hover:-translate-y-1 hover:border-indigo-500">
                 <h3 className="text-lg font-semibold mb-2 text-gray-700">{project.title}</h3>
                 {project.image && (
                   <img src={project.image} alt={project.title} className="w-full h-40 object-cover rounded-lg mb-4 shadow-sm" />
@@ -126,7 +126,7 @@ const Experience: React.FC = () => {
                     </span>
                   ))}
                 </div>
-                <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:text-indigo-800 inline-flex items-center font-medium transition">
+                <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:text-indigo-800 inline-flex items-center font-medium transition hover:scale-105">
                   View on GitHub <ExternalLink size={16} className="ml-1" />
                 </a>
               </div>
