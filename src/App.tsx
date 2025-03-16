@@ -142,7 +142,7 @@ function App() {
                 </h2>
                 <div className="flex flex-col md:flex-row gap-8">
                   <img
-                    src="/assets/profile.jpg"
+                    src="/profile.jpg"
                     alt="Professional headshot"
                     className="w-48 h-48 rounded-full object-cover mx-auto md:mx-0 ring-4 ring-indigo-100"
                   />
@@ -197,7 +197,7 @@ function App() {
                     <FileText className="mr-2" /> Resume
                   </h2>
                   <a 
-                    href="/assets/resume.pdf"
+                    href="/resume.pdf"
                     download="resume.pdf"
                     className="inline-flex items-center text-indigo-600 hover:text-indigo-800 transition duration-300"
                   >
@@ -209,7 +209,7 @@ function App() {
                     <FileText className="mr-2" /> Cover Letter
                   </h2>
                   <a 
-                    href="/assets/cv.pdf"
+                    href="/cv.pdf"
                     download="cv.pdf"
                     className="inline-flex items-center text-indigo-600 hover:text-indigo-800 transition duration-300"
                   >

@@ -20,37 +20,37 @@ const certifications: Certification[] = [
     issuedBy: "Qbits Learning",
     date: "Feb 2025",
     skills: "MongoDB, Express.js, React.js, Node.js, Postman API, Git",
-    file: "/assets/certificates/training_project.pdf",
+    file: "/certificates/training_project.pdf",
   },
   {
     title: "Programming in C# Certification",
     issuedBy: "Sololearn",
     date: "Aug 2023",
     skills: "C#",
-    file: "/assets/certificates/csharp.pdf",
+    file: "/certificates/csharp.pdf",
   },
   {
     title: "Programming in HTML5 with JavaScript",
     issuedBy: "Sololearn",
     date: "Aug 2023",
     skills: "JavaScript, HTML5, CSS",
-    file: "/assets/certificates/javascript.pdf",
+    file: "/certificates/javascript.pdf",
   },
   {
     title: "SQL Certification",
     issuedBy: "Sololearn",
     date: "Aug 2023",
     skills: "SQL",
-    file: "/assets/certificates/sql.pdf",
+    file: "/certificates/sql.pdf",
   },
 ];
 
 const deansLetters: DeansLetter[] = [
-  { title: "Dean’s Honour List - Term 1", file: "/assets/dean_letters/dean_letter1.pdf" },
-  { title: "Dean’s Honour List - Term 2", file: "/assets/dean_letters/dean_letter2.pdf" },
-  { title: "Dean’s Honour List - Term 3", file: "/assets/dean_letters/dean_letter3.pdf" },
-  { title: "Dean’s Honour List - Term 4", file: "/assets/dean_letters/dean_letter4.pdf" },
-  { title: "Dean’s Honour List - Term 5", file: "/assets/dean_letters/dean_letter5.pdf" },
+  { title: "Dean’s Honour List - Term 1", file: "/dean_letters/dean_letter1.pdf" },
+  { title: "Dean’s Honour List - Term 2", file: "/dean_letters/dean_letter2.pdf" },
+  { title: "Dean’s Honour List - Term 3", file: "/dean_letters/dean_letter3.pdf" },
+  { title: "Dean’s Honour List - Term 4", file: "/dean_letters/dean_letter4.pdf" },
+  { title: "Dean’s Honour List - Term 5", file: "/dean_letters/dean_letter5.pdf" },
 ];
 
 const Certifications: React.FC = () => {
