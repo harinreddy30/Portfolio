@@ -209,8 +209,8 @@ function App() {
                     <FileText className="mr-2" /> Cover Letter
                   </h2>
                   <a 
-                    href="/assets/certifications/CV.pdf"
-                    download="CV.pdf"
+                    href="/assets/certifications/cv.pdf"
+                    download="cv.pdf"
                     className="inline-flex items-center text-indigo-600 hover:text-indigo-800 transition duration-300"
                   >
                     View Cover Letter <ExternalLink size={16} className="ml-1" />
