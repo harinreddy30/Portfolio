@@ -20,28 +20,28 @@ const certifications: Certification[] = [
     issuedBy: "Qbits Learning",
     date: "Feb 2025",
     skills: "MongoDB, Express.js, React.js, Node.js, Postman API, Git",
-    file: "/certificates/training_project.pdf",
+    file: "/training_project.pdf",
   },
   {
     title: "Programming in C# Certification",
     issuedBy: "Sololearn",
     date: "Aug 2023",
     skills: "C#",
-    file: "/certificates/csharp.pdf",
+    file: "/csharp.pdf",
   },
   {
     title: "Programming in HTML5 with JavaScript",
     issuedBy: "Sololearn",
     date: "Aug 2023",
     skills: "JavaScript, HTML5, CSS",
-    file: "/certificates/javascript.pdf",
+    file: "/javascript.pdf",
   },
   {
     title: "SQL Certification",
     issuedBy: "Sololearn",
     date: "Aug 2023",
     skills: "SQL",
-    file: "/certificates/sql.pdf",
+    file: "/sql.pdf",
   },
 ];
 

@@ -16,14 +16,14 @@ interface Project {
 }
 
 const capstoneFiles: CapstoneFile[] = [
-  { name: "Project Summary", file: "/project_summary.docx" },
-  { name: "Project Vision", file: "/project_vision.docx" },
-  { name: "Project/Business Requirement", file: "/Requirements_Analysis_Design.docx" },
-  { name: "Project Plan", file: "/Project_Plan.docx" },
-  { name: "Requirement Analysis and Design", file: "/Requirements_Analysis_Design.docx" },
+  { name: "Project Summary", file: "/assets/capstone/Project_Summary.docx" },
+  { name: "Project Vision", file: "/assets/capstone/Project_Vision.docx" },
+  { name: "Project/Business Requirement", file: "/assets/capstone/Requirements_Analysis_Design.docx" },
+  { name: "Project Plan", file: "/assets/capstone/Project_Plan.docx" },
+  { name: "Requirement Analysis and Design", file: "/assets/capstone/Requirements_Analysis_Design.docx" },
   { name: "Figma Wireframes", file: "https://www.figma.com/design/qNMGxyYU0z3mR1Q3DOXkSC/ShiftSmart?m=auto&t=4jZNkIYSHGtsvKDo-6" },
   { name: "Figma Prototype", file: "https://www.figma.com/proto/qNMGxyYU0z3mR1Q3DOXkSC?node-id=116-13899&t=4jZNkIYSHGtsvKDo-6" },
-  { name: "Status Reports", file: "/Status_Reports.docx" },
+  { name: "Status Reports", file: "/assets/capstone/Status_Reports.docx" },
 ];
 
 const academicProjects: Project[] = [
@@ -96,10 +96,17 @@ const Experience: React.FC = () => {
                     {file.name}
                   </a>
                 ) : (
-                  <a href={file.file} download className="text-indigo-600 hover:text-indigo-800 inline-flex items-center font-medium transition">
-                    <Download className="mr-2" size={16} />
-                    {file.name}
-                  </a>
+                  <a
+  href={file.file}
+  download
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-indigo-600 hover:text-indigo-800 inline-flex items-center font-medium transition hover:scale-105"
+>
+  <Download className="mr-2" size={16} />
+  {file.name}
+</a>
+
                 )}
               </div>
             ))}
