@@ -210,7 +210,7 @@ function App() {
                   </h2>
                   <a 
                     href="/assets/certifications/Cv.pdf"
-                    download="Cv.pdf"
+                    download="CV.pdf"
                     className="inline-flex items-center text-indigo-600 hover:text-indigo-800 transition duration-300"
                   >
                     View Cover Letter <ExternalLink size={16} className="ml-1" />

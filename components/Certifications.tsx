@@ -27,21 +27,21 @@ const certifications: Certification[] = [
     issuedBy: "Sololearn",
     date: "Aug 2023",
     skills: "C#",
-    file: "/assets/certifications/csharp.pdf",
+    file: "/assets/certifications/Csharp.pdf",
   },
   {
     title: "Programming in HTML5 with JavaScript",
     issuedBy: "Sololearn",
     date: "Aug 2023",
     skills: "JavaScript, HTML5, CSS",
-    file: "/assets/certifications/javascript.pdf",
+    file: "/assets/certifications/Javascript.pdf",
   },
   {
     title: "SQL Certification",
     issuedBy: "Sololearn",
     date: "Aug 2023",
     skills: "SQL",
-    file: "/assets/certifications/sql.pdf",
+    file: "/assets/certifications/SQL.pdf",
   },
 ];
 
