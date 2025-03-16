@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Certifications from "../components/Certifications";
 import Experience from "../components/Experience";
-import MinimalTest from '../components/MinimalTest';
 
 import {
   FaReact,
@@ -149,7 +148,6 @@ function App() {
                   />
                   <div>
                     <h3 className="text-2xl font-semibold mb-4">Harin Reddy Ramasani</h3>
-                    <MinimalTest/>
                     <p className="text-gray-600 mb-4">
                       Computer Programming and Analysis student at George Brown College with a proven track record of academic excellence, consistently making the Dean’s Honour List each semester. Experienced peer tutor, passionate about empowering others through technical guidance and problem-solving. Skilled in full-stack development, database management, and AI strategies, with hands-on expertise in project-based learning.
                     </p>

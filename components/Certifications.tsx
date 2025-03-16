@@ -93,7 +93,7 @@ const Certifications: React.FC = () => {
                   href={cert.file}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-flex items-center px-6 py-3 bg-indigo-600 text-white text-base font-semibold rounded-xl shadow-md hover:bg-indigo-700 transition duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className="mt-4 inline-flex items-center px-6 py-3 bg-indigo-600 text-black text-base font-semibold rounded-xl shadow-md hover:bg-indigo-700 transition duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 >
                   <FileText className="mr-2" size={20} />
                   View Certificate
@@ -120,7 +120,7 @@ const Certifications: React.FC = () => {
                   href={letter.file}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-3 inline-flex items-center px-6 py-3 bg-indigo-600 text-white text-base font-semibold rounded-xl shadow-md hover:bg-indigo-700 transition duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className="mt-3 inline-flex items-center px-6 py-3 bg-indigo-600 text-black text-base font-semibold rounded-xl shadow-md hover:bg-indigo-700 transition duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 >
                   <ExternalLink className="mr-2" size={20} />
                   View Letter
