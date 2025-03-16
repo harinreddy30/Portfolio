@@ -209,7 +209,7 @@ function App() {
                     <FileText className="mr-2" /> Cover Letter
                   </h2>
                   <a 
-                    href="/assets/certifications/Cv.pdf"
+                    href="/assets/certifications/CV.pdf"
                     download="CV.pdf"
                     className="inline-flex items-center text-indigo-600 hover:text-indigo-800 transition duration-300"
                   >
