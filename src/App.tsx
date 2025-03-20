@@ -97,7 +97,7 @@ function App() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <h1 className="text-2xl font-bold text-indigo-600 transition-transform duration-300 hover:scale-105">
-              Your Portfolio
+              Harin's Portfolio
             </h1>
             <div className="hidden md:flex space-x-8">
               {navigationItems.map(({ id, label }) => (
